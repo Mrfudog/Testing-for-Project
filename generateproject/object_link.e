@@ -4,5 +4,4 @@ note
 
 class
 	OBJECT_LINK
-
 end
