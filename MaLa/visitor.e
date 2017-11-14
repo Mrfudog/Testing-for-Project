@@ -6,33 +6,24 @@ note
 class
 	VISITOR
 
-
+inherit
+	ARGUMENTS
 
 create
 	make
 
-<<<<<<< HEAD
-feature -- Initialization
-
-
-=======
 feature {NONE} -- Initialization
+<<<<<<< HEAD
 zahl:INTEGER
 >>>>>>> 876f251e0aebf1768f9261326c79cb2a7b9bee23
-			-- Run application.
-<<<<<<< HEAD
 =======
+
+	make
+>>>>>>> de5f77544896a330e71ef017d97d7d25c630680c
+			-- Run application.
 		do
-			zahl:=5
 			--| Add your code here
 			print ("Hello Eiffel World!%N")
-			print (zahl)
 		end
-
-	useless_loop
-		do
-
-		end
->>>>>>> 876f251e0aebf1768f9261326c79cb2a7b9bee23
 
 end
