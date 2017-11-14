@@ -10,15 +10,19 @@ inherit
 	ARGUMENTS
 create
 	make
+
 feature  -- Initialization
 
-	current_identifier: ID_GENERATOR
-	ID: INTEGER
+	global_id: ID_GENERATOR
+	identifier: INTEGER
+
+feature --Routines
 	make
 		do
-			print(ID)
-			ID := current_identifier.retrieve
-			print(ID)
+			create global_id
+			print(identifier)
+			global_id.set_id
+			print(identifier)
 
 		end
 

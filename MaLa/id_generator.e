@@ -7,23 +7,26 @@ note
 
 class
 	ID_GENERATOR
+
 create
-	make
-feature
-	currentid: INTEGER
-	startid: INTEGER = 0
+	initialize_id
+
+feature --Status
+
+	current_id: INTEGER
+	start_id: INTEGER = 0
 
 
-	retrieve: INTEGER
+feature --Routines
+
+	initialize_id
 		do
-			currentid := currentid + 1
-			Result := currentid
+			current_id:=start_id
 		end
 
-	make
+	set_id
 		do
-			currentid := startid
+			current_id := current_id + 1
 		end
-
 
 end
