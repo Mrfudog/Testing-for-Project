@@ -12,13 +12,14 @@ inherit
 create
 	make
 
-feature {NONE} -- Initialization
+feature -- Initialization
+
+
 
 	make
+	do
+		create t1: text
+	end
 			-- Run application.
-		do
-			--| Add your code here
-			print ("Hello Eiffel World!%N")
-		end
 
 end
