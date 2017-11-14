@@ -1,34 +1,34 @@
 INCLUDE_PATH = 
 SHELL = /bin/sh
-CC = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/gcc"
-CPP = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/gcc"
-CFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DEIF_IEEE_BEHAVIOR -DWORKBENCH -I"C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/studio/spec/win64/include" -I. $(INCLUDE_PATH)
-CPPFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE -DWIN32_LEAN_AND_MEAN  -DEIF_THREADS  -DWORKBENCH -I"C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/studio/spec/win64/include" -I. $(INCLUDE_PATH)
+CC = "F:\EiffelStudio/gcc/win64/mingw/bin/gcc"
+CPP = "F:\EiffelStudio/gcc/win64/mingw/bin/gcc"
+CFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE  -DEIF_THREADS  -DEIF_IEEE_BEHAVIOR -DWORKBENCH -I"F:\EiffelStudio/studio/spec/win64/include" -I. $(INCLUDE_PATH)
+CPPFLAGS = -O0 -pipe -imacros eif_config.mingw.h -D_WIN32_WINNT=0x0500 -DWINVER=0x0500 -D_UNICODE -DUNICODE  -DEIF_THREADS  -DWORKBENCH -I"F:\EiffelStudio/studio/spec/win64/include" -I. $(INCLUDE_PATH)
 LDFLAGS = 
 CCLDFLAGS =   -mconsole
 LDSHAREDFLAGS =  
-EIFLIB = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/studio/spec/win64/lib/mingw/mtwkbench.a"
-EIFTEMPLATES = C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/studio/config/win64/templates
+EIFLIB = "F:\EiffelStudio/studio/spec/win64/lib/mingw/mtwkbench.a"
+EIFTEMPLATES = F:\EiffelStudio/studio/config/win64/templates
 LIBS = 
-MAKE = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/msys/1.0/bin/make.exe"
-AR = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/ar"
-LD = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/ld"
+MAKE = "F:\EiffelStudio/gcc/win64/msys/1.0/bin/make.exe"
+AR = "F:\EiffelStudio/gcc/win64/mingw/bin/ar"
+LD = "F:\EiffelStudio/gcc/win64/mingw/bin/ld"
 MKDEP =   --
-MV = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/msys/1.0/bin/cp"
-CP = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/msys/1.0/bin/cp"
-RANLIB = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/ranlib.exe"
-RM = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/msys/1.0/bin/rm" -f
+MV = "F:\EiffelStudio/gcc/win64/msys/1.0/bin/cp"
+CP = "F:\EiffelStudio/gcc/win64/msys/1.0/bin/cp"
+RANLIB = "F:\EiffelStudio/gcc/win64/mingw/bin/ranlib.exe"
+RM = "F:\EiffelStudio/gcc/win64/msys/1.0/bin/rm" -f
 FILE_EXIST = 
-RMDIR = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/msys/1.0/bin/rd"
-X2C = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/studio/spec/win64/bin/x2c.exe"
-SHAREDLINK = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/dllwrap"
+RMDIR = "F:\EiffelStudio/gcc/win64/msys/1.0/bin/rd"
+X2C = "F:\EiffelStudio/studio/spec/win64/bin/x2c.exe"
+SHAREDLINK = "F:\EiffelStudio/gcc/win64/mingw/bin/dllwrap"
 SHAREDLIBS = -luser32 -lws2_32 -ladvapi32 -lgdi32 -lshell32 -lmsimg32 -lcomdlg32 -luuid -lole32 -loleaut32 -lcomctl32 -lmpr -lshlwapi -lwinspool -lstdc++ 
 SHARED_SUFFIX = .dll
 COMMAND_MAKEFILE = 
 START_TEST = if [ ! -f finished ] ; then 
 END_TEST = ; fi 
-CREATE_TEST = "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/msys/1.0/bin/touch" finished
-PATH := C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/libexec/gcc/mingw32/3.4.2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Python27;C:\Program Files (x86)\GNU\GnuPG\pub;C:\Program Files\Git\cmd;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files (x86)\Python27;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\Username\AppData\Roaming\MiKTeX\2.9\miktex\bin\x64\; 
+CREATE_TEST = "F:\EiffelStudio/gcc/win64/msys/1.0/bin/touch" finished
+PATH := F:\EiffelStudio/gcc/win64/mingw/libexec/gcc/mingw32/3.4.2;C:\Users\Basil\Python\;C:\Users\Basil\Python\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\ZyXEL PLA Series Utility\ZyXEL PLA Series Utility\cml;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;F:\Git\cmd;C:\Program Files (x86)\ZyXEL PLA Series Utility\ZyXEL PLA Series Utility\cml;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps; 
 SYSTEM_IN_DYNAMIC_LIB = mala.dll 
 
 .SUFFIXES:.cpp .o 
@@ -92,7 +92,7 @@ C_OBJECTS = C1/Cobj1.o
 
 EOBJECTS = E1/eparents.o  E1/einit.o  E1/ececil.o  E1/evisib.o  E1/enames.o  E1/eskelet.o  E1/eplug.o  E1/ecall.o  E1/efrozen.o  E1/epattern.o  E1/eoption.o  
 
-PRECOMP_OBJECTS= "c:\users\username\documents\eiffel user files\17.05\precomp\spec\win64\EIFGENs\base-scoop-safe\W_code/mingw/precomp.lib"
+PRECOMP_OBJECTS= "c:\users\basil\documents\eiffel user files\17.01\precomp\spec\win64\EIFGENs\base-scoop-safe\W_code/mingw/precomp.lib"
 
 
 mala.exe: E1/emain.o $(OBJECTS) mala.res 
@@ -101,10 +101,10 @@ mala.exe: E1/emain.o $(OBJECTS) mala.res
 	$(CC) $(LDFLAGS) $(CCLDFLAGS) -o mala.exe E1/emain.o $(PRECOMP_OBJECTS) mala.res $(OBJECTS)  $(EIFLIB) -luser32 -lws2_32 -ladvapi32 -lgdi32 -lshell32 -lmsimg32 -lcomdlg32 -luuid -lole32 -loleaut32 -lcomctl32 -lmpr -lshlwapi -lwinspool -lstdc++ $(ISE_SHAREDLIBS)
 
 ../../../mala.rc:
-	if [ ! -f ../../../mala.rc ] ; then $(MV) "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/studio/config/win64/mingw/eiffel.rc" ../../../mala.rc ; fi 
+	if [ ! -f ../../../mala.rc ] ; then $(MV) "F:\EiffelStudio/studio/config/win64/mingw/eiffel.rc" ../../../mala.rc ; fi 
 
 mala.res: ../../../mala.rc Makefile
-	"C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/windres" --preprocessor='"C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/cpp.exe"' -I../../.. ../../../mala.rc -O coff -o mala.res
+	"F:\EiffelStudio/gcc/win64/mingw/bin/windres" --preprocessor='"F:\EiffelStudio/gcc/win64/mingw/bin/cpp.exe"' -I../../.. ../../../mala.rc -O coff -o mala.res
 
 RCECIL = MTdebug.o MTidrs.o MTinterp.o mtipc.o MTnetwork.o MTupdate.o \
 	MTwargv.o MTwbench.o MTwboolstr.o MTwcecil.o MTwcompress.o \
@@ -139,14 +139,14 @@ DEF_FILE= c_mala.def
 c_mala.def: 
 	$(RM) $@
 	@echo LIBRARY libmala.dll > $@
-	@type "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/studio/config/win64/templates/cecil.def" >> $@
+	@type "F:\EiffelStudio/studio/config/win64/templates/cecil.def" >> $@
 
 SHARED_CECIL_OBJECT = $(OBJECTS) \
 		E1/emain.o
 SHAREDFLAGS = $(LDSHAREDFLAGS) \
 \
-	--dlltool-name "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/dlltool" \
-	--as "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/as" \
+	--dlltool-name "F:\EiffelStudio/gcc/win64/mingw/bin/dlltool" \
+	--as "F:\EiffelStudio/gcc/win64/mingw/bin/as" \
 	--def $(DEF_FILE) --output-lib c_dll_mala.lib -o $(SHARED_CECIL)
 
 $(SHARED_CECIL): $(SHARED_CECIL_OBJECT)  $(DEF_FILE)
@@ -167,8 +167,8 @@ SYSTEM_IN_DYNAMIC_LIB_OBJ = $(OBJECTS) \
 		E1/edynlib.o E1/egc_dynlib.o 
 DYNLIBSHAREDFLAGS = $(LDSHAREDFLAGS) \
 \
-	--dlltool-name "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/dlltool" \
-	--as "C:\Program Files\Eiffel Software\EiffelStudio 17.05 GPL/gcc/win64/mingw/bin/as" \
+	--dlltool-name "F:\EiffelStudio/gcc/win64/mingw/bin/dlltool" \
+	--as "F:\EiffelStudio/gcc/win64/mingw/bin/as" \
 	--def $(DEF_FILE) --output-lib dll_mala.lib -o $(SYSTEM_IN_DYNAMIC_LIB)
 
 $(SYSTEM_IN_DYNAMIC_LIB): $(SYSTEM_IN_DYNAMIC_LIB_OBJ)  $(DEF_FILE)
