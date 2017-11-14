@@ -19,11 +19,6 @@ feature -- Initialization
 feature {NONE} -- Initialization
 zahl:INTEGER
 >>>>>>> 876f251e0aebf1768f9261326c79cb2a7b9bee23
-
-	make
-	do
-		create t1: text
-	end
 			-- Run application.
 <<<<<<< HEAD
 =======
