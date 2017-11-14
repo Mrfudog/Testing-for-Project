@@ -11,9 +11,15 @@ inherit
 create
 	make
 feature  -- Initialization
+
+	current_identifier: ID_GENERATOR
+	ID: INTEGER
 	make
 		do
-			print("WELL")
+			print(ID)
+			ID := current_identifier.retrieve
+			print(ID)
+
 		end
 
 

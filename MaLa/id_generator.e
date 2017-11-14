@@ -7,18 +7,19 @@ note
 
 class
 	ID_GENERATOR
-
+create
+	make
 feature
 	currentid: INTEGER
 	startid: INTEGER = 0
 
-	getid()
+
+	retrieve: INTEGER
 		do
 			currentid := currentid + 1
 			Result := currentid
 		end
 
-create
 	make
 		do
 			currentid := startid
