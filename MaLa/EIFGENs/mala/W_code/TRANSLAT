@@ -1,0 +1,7 @@
+mala	ID_GENERATOR	current_id	F958_7100	C1\id958.c
+mala	ID_GENERATOR	make	F958_7101	C1\id958.c
+mala	ID_GENERATOR	iterate_id	F958_7102	C1\id958.c
+mala	ID_GENERATOR	get_id	F958_7103	C1\id958.c
+mala	APPLICATION	global_id	F959_7104	C1\ap959.c
+mala	APPLICATION	identifier	F959_7105	C1\ap959.c
+mala	APPLICATION	make	F959_7106	C1\ap959.c

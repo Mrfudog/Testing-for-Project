@@ -28,9 +28,9 @@ feature --Routines
 			current_id := current_id + 1
 		end
 
-	get_id: ID_GENERATOR
+	get_id: INTEGER
 		do
-			current_id.iterate_id
+			current_id := current_id + 1
 			Result := current_id
 		end
 

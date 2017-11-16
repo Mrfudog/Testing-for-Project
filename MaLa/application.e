@@ -20,13 +20,7 @@ feature  -- Initialization
 feature --Routines
 	make
 		do
-			create global_id.get_id
-			print(global_id)
-			global_id.get_id
-			print(identifier)
-			global_id.get_id
-			print(identifier)
-
+			create global_id.make
 		end
 
 
