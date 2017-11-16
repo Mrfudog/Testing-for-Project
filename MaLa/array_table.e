@@ -5,4 +5,9 @@ inherit OBJECTPARENT
 class
 	ARRAY_TABLE
 
+
+feature --Attributes
+
+feature --Routines
+
 end
