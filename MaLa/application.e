@@ -21,6 +21,11 @@ feature --Routines
 	make
 		do
 			create global_id.make
+			print(global_id)
+			identifier := global_id.current_id
+			print(identifier)
+			global_id.iterate_id
+			print(global_id)
 		end
 
 
