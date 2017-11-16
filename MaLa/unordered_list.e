@@ -5,4 +5,14 @@ note
 class
 	UNORDERED_LIST
 
+create
+	make
+
+feature -- Attributes
+
+
+feature -- Routines
+
+	make(content : ARRAY[TEXT];
+
 end

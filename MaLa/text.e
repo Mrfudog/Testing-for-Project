@@ -9,12 +9,14 @@ class
 create
 	make
 
-feature
+feature --Attributes
 
 	text_content: STRING -- What will be written in the text/paragraph
 	id: INTEGER -- Will be the unique id of the object
 	title: STRING -- Will be the title of the object (for reconnaissance)
 	type: STRING = "text"
+
+featur --Routines
 
 	make(what,ttl: STRING)
 		do

@@ -17,14 +17,14 @@ feature  -- Initialization
 	--global_id: ID_GENERATOR
 	--identifier: INTEGER
 	text1: TEXT
-	string1: STRING
+
 
 feature --Routines
 	make
 		do
-			string1:= "Peter Lustig"
-			create text1.make("Hans Meier")
+			create text1.make("Hans Meier", "Meier")
 			print(text1.text_content)
+			print(text1.title)
 		end
 
 
