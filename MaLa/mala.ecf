@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="ISO-8859-1"?>
 <system xmlns="http://www.eiffel.com/developers/xml/configuration-1-16-0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.eiffel.com/developers/xml/configuration-1-16-0 http://www.eiffel.com/developers/xml/configuration-1-16-0.xsd" name="mala" uuid="BBC57E23-78B9-4E51-BD08-00DFE327DBE0">
 	<target name="mala">
 		<root class="APPLICATION" feature="make"/>
@@ -19,6 +19,6 @@
 		</capability>
 		<precompile name="base_pre" location="$ISE_PRECOMP\base-scoop-safe.ecf"/>
 		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
-		<cluster name="mala" location="C:\Users\basil\OneDrive\Programming\SoftwareConstruction\Testing-for-Project\MaLa\" recursive="true"/>
+		<cluster name="mala" location="C:\Users\Crodom95\Desktop\MaLa\" recursive="true"/>
 	</target>
 </system>
