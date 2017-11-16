@@ -19,6 +19,6 @@
 		</capability>
 		<precompile name="base_pre" location="$ISE_PRECOMP\base-scoop-safe.ecf"/>
 		<library name="base" location="$ISE_LIBRARY\library\base\base.ecf"/>
-		<cluster name="mala" location="C:\Users\Crodom95\Desktop\MaLa\" recursive="true"/>
+		<cluster name="mala" location="C:\Users\Basil\OneDrive\Programming\SoftwareConstruction\Testing-for-Project\" recursive="true"/>
 	</target>
 </system>
