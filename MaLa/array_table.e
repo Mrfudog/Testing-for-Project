@@ -1,7 +1,7 @@
 note
 	description: "Input consists of one or more arguments in form of one-dimensional arrays with data in them (e.g. [Name, First Name, Date of birth, ...]. All arrays shall be put together into a table which may be printed. Has the possibility to add the string to the file created with the 'generate' feature."
 	contracts: "require: array(s) all same length, ensure: output in form of table"
-inherit OBJECTPARENT
+
 class
 	ARRAY_TABLE
 
@@ -11,34 +11,23 @@ create
 feature --Attributes
 
 	table: ARRAY[ARRAY[TEXT]]
-	collumn_count: INTEGER
+	column_count: INTEGER
 	row_count: INTEGER
+	type: STRING = "Array_table"
 
 feature --Routines
 
-	make(rows: INTEGER,collumns: INTEGER)
-
+	make (rows,columns: INTEGER)
 		do
+			create table.make(rows,columns)
 			row_count := rows
-			collumn_count := collumns
+			column_count := columns
 		end
 
-	fill_field
+	add_row(row: ARRAY[TEXT]; index: INTEGER_32) --Add row (rawrow) at index i
 
 		do
-
-		end
-
-	create_row(
-
-		do
-
-		end
-
-	add_row(row: ARRAY)
-
-		do
-
+			table.put (row,index)
 		end
 
 end

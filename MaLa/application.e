@@ -14,20 +14,17 @@ create
 
 feature  -- Initialization
 
-	global_id: ID_GENERATOR
-	identifier: INTEGER
-	ar_table: ARRAY_TABLE
+	--global_id: ID_GENERATOR
+	--identifier: INTEGER
+	text1: TEXT
+	string1: STRING
 
 feature --Routines
 	make
 		do
-			create global_id.make
-			print(global_id)
-			identifier := global_id.current_id
-			print(identifier)
-			global_id.iterate_id
-			print(global_id)
-			create ar_table.make
+			string1:= "Peter Lustig"
+			create text1.make("Hans Meier")
+			print(text1.text_content)
 		end
 
 
