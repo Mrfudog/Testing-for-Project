@@ -5,9 +5,40 @@ inherit OBJECTPARENT
 class
 	ARRAY_TABLE
 
+create
+	make
 
 feature --Attributes
 
+	table: ARRAY[ARRAY[TEXT]]
+	collumn_count: INTEGER
+	row_count: INTEGER
+
 feature --Routines
+
+	make(rows: INTEGER,collumns: INTEGER)
+
+		do
+			row_count := rows
+			collumn_count := collumns
+		end
+
+	fill_field
+
+		do
+
+		end
+
+	create_row(
+
+		do
+
+		end
+
+	add_row(row: ARRAY)
+
+		do
+
+		end
 
 end

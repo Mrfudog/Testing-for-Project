@@ -16,6 +16,7 @@ feature  -- Initialization
 
 	global_id: ID_GENERATOR
 	identifier: INTEGER
+	ar_table: ARRAY_TABLE
 
 feature --Routines
 	make
@@ -26,6 +27,7 @@ feature --Routines
 			print(identifier)
 			global_id.iterate_id
 			print(global_id)
+			create ar_table.make
 		end
 
 
