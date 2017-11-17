@@ -10,9 +10,18 @@ create
 
 feature -- Attributes
 
+	array: ARRAY[TEXT]
+	array_count: INTEGER
+	text_filler: TEXT
 
 feature -- Routines
 
-	make(content : ARRAY[TEXT];
+	make(content : ARRAY[TEXT])
+		do
+			create text_filler.make("Filler","Filler")
+			array_count := content.count
+			create array.make_filled(TEXT,0,(array_count-1)
+			array := content
+		end
 
 end

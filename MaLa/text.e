@@ -16,9 +16,9 @@ feature --Attributes
 	title: STRING -- Will be the title of the object (for reconnaissance)
 	type: STRING = "text"
 
-featur --Routines
+feature --Routines
 
-	make(what,ttl: STRING)
+	make(what:STRING; ttl: STRING)
 		do
 			create text_content.make (what.count)
 			create title.make (ttl.count)
