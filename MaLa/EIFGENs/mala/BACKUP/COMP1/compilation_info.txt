@@ -2,4 +2,5 @@ Compiler version: 17.05.10.0416 GPL Edition - win64
 Type: Quick_melt
 batch mode: False
 new session: True
-starting date: 11/17/2017 3:34:57.443 PM
+starting date: 11/17/2017 4:01:27.104 PM
+I can even add more info myself
