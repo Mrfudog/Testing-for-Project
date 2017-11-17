@@ -5,4 +5,11 @@ note
 class
 	ITALIC
 
+--This Class should be written in italian!?
+--creare
+--	fare
+
+--caratteristica{niente}
+--	cursivo
+
 end
