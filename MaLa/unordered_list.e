@@ -16,12 +16,12 @@ feature -- Attributes
 
 feature -- Routines
 
-	make(content : ARRAY[TEXT])
+	make(content : ARRAY)
 		do
 			create text_filler.make("Filler","Filler")
 			array_count := content.count
 			create array.make_filled(TEXT,0,(array_count-1)
-			array := content
+			array.copy(content)
 		end
 
 end
