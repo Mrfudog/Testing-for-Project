@@ -19,7 +19,7 @@ feature  -- Initialization
 	text1: TEXT
 	text2: TEXT
 	text3: TEXT
-	ar1: ARRAY[TEXT]
+	--ar1: ARRAY[ARRAY[TEXT]]
 	ul1: UNORDERED_LIST
 
 
@@ -31,7 +31,7 @@ feature --Routines
 			print(text1.title)
 			create text2.make("Peter Müller", "Peterli")
 			create text3.make("Franz Herbert", "Franzli")
-
+			
 		end
 
 
