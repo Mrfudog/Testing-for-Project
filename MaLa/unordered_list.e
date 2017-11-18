@@ -11,7 +11,7 @@ create
 feature -- Attributes
 
 	array: ARRAY[TEXT]
-	type: STRING "unordered_list"
+	type: STRING = "unordered_list"
 	id: INTEGER
 
 feature -- Routines

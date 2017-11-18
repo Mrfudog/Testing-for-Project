@@ -1,0 +1,20 @@
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected TEXT but got Void
+
+mala: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ARRAY               grow @1                resizable:                   
+<000000000444EE38>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<000000000444E5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000000444E5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------

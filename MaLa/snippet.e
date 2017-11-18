@@ -5,4 +5,22 @@ note
 class
 	SNIPPET
 
+create
+	make
+
+feature -- Attributes
+
+	id: INTEGER
+	snippet_content: STRING
+	ttl: STRING
+	type: STRING = "snippet"
+
+feature -- Routines
+
+	make(content,title: STRING)
+		do
+			snippet_content := content
+			ttl := title
+		end
+
 end

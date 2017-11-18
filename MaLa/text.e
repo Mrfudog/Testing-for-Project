@@ -6,6 +6,8 @@ note
 class
 	TEXT
 
+inherit OBJECTPARENT
+
 create
 	make
 
