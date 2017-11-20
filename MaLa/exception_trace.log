@@ -18,3 +18,73 @@ APPLICATION         make @7
 APPLICATION         root's creation                                     
 <000000000444E5A8>                         Routine failure.              Exit
 -------------------------------------------------------------------------------
+
+mala: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ARRAY               grow @1                resizable:                   
+<00000000042ADE48>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+DOCUMENT            append @2                                           
+<00000000042ADE28>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @7                                             
+<00000000042AD5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000042AD5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected OBJECTPARENT but got Void
+Catcall detected in {SPECIAL}.aliased_resized_area_with_default for arg#1: expected OBJECTPARENT but got Void
+Catcall detected in {SPECIAL}.fill_with for arg#1: expected OBJECTPARENT but got Void
+Catcall detected in {ARRAY}.conservative_resize_with_default for arg#1: expected OBJECTPARENT but got Void
+
+mala: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ARRAY               grow @1                resizable:                   
+<00000000042610C8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+DOCUMENT            append @2                                           
+<0000000004260EE8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @9                                             
+<00000000042605A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<00000000042605A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
+
+mala: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+ARRAY               grow @1                resizable:                   
+<000000000431F0C8>                         Precondition violated.        Fail
+-------------------------------------------------------------------------------
+DOCUMENT            append @2                                           
+<000000000431EEE8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         make @9                                             
+<000000000431E5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+APPLICATION         root's creation                                     
+<000000000431E5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------

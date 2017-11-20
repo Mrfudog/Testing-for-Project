@@ -30,7 +30,7 @@ feature --Routines
 		do
 			create text1.make("Hans Meier", "Hansli")
 			print(text1.text_content)
-			print(text1.title)
+			print(text1.title + "%N")
 			create text2.make("Peter Müller", "Peterli")
 			create text3.make("Franz Herbert", "Franzli")
 			--create array.make_empty

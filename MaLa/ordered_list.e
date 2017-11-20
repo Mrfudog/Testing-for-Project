@@ -6,4 +6,20 @@ note
 class
 	ORDERED_LIST
 
+create
+	make
+
+feature -- Attributes
+
+	array: ARRAY[TEXT]
+	type: STRING = "unordered_list"
+	id: INTEGER
+
+feature -- Routines
+
+	make(content : ARRAY[TEXT])
+		do
+			create array.make_from_array(content)
+		end
+
 end

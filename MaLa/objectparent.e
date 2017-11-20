@@ -7,5 +7,6 @@ note
 class
 	OBJECTPARENT
 
+feature
 
 end
