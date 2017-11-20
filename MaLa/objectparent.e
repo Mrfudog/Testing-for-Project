@@ -8,5 +8,6 @@ class
 	OBJECTPARENT
 
 feature
-
+	type: STRING
+	
 end
