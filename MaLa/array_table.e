@@ -5,29 +5,46 @@ note
 class
 	ARRAY_TABLE
 
+inherit
+	OBJECTPARENT
+	
 create
 	make
 
 feature --Attributes
 
-	table: ARRAY[ARRAY[TEXT]]
+	content: STRING -- What will be written in the text/paragraph
+	identifier: INTEGER -- Will be the unique id of the object
+	title: STRING -- Will be the title of the object (for recognition)
+	type: STRING -- The type of the object
 	column_count: INTEGER
 	row_count: INTEGER
-	type: STRING = "Array_table"
 
 feature --Routines
 
-	make (rows,columns: INTEGER)
+	make(what: LINKED_LIST[LINKED_LIST[OBJECTPARENT]]; ttl: STRING; id: INTEGER)
 		do
-			create table.make(rows,columns)
-			row_count := rows
-			column_count := columns
+			content := what
+			row_count := what.count
+			title := ttl
 		end
 
-	add_row(row: ARRAY[TEXT]; index: INTEGER_32) --Add row (rawrow) at index i
+	add_rawrow(rawrow: LINKED_LIST[OBJECTPARENT]) --Add row (rawrow)
 
 		do
-			table.put (row,index)
+			table.extend(row)
+			row_count := row_count + 1
+		end
+
+	exchange_rawrow(rawrow: LINKED_LIST[TEXT]; index: INTEGER) -- Add row (rawrow) at Index
+		do
+			table.go_i_th(index)
+			table.exchange(row)
+		end
+
+	get_type: STRING
+		do
+			Result:= type
 		end
 
 end

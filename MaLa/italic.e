@@ -5,27 +5,34 @@ note
 class
 	ITALIC
 
+inherit
+	OBJECTPARENT
+
 create
 	make
 
 feature --Attributes
 
-	italic_content: STRING -- What will be written in the text/paragraph
-	id: INTEGER -- Will be the unique id of the object
-	title: STRING -- Will be the title of the object (for reconnaissance)
-	type: STRING = "text"
+	content: STRING -- What will be written in the text/paragraph
+	identifier: INTEGER -- Will be the unique id of the object
+	title: STRING -- Will be the title of the object (for recognition)
+	type: STRING -- The type of the object
+
 
 feature --Routines
 
-	make(what:STRING; ttl: STRING)
+	make(what:STRING; ttl: STRING; id: INTEGER)
 		do
 			create italic_content.make (what.count)
 			create title.make (ttl.count)
-			italic_content := what
+			identifier := id
+			content := what
 			title := ttl
+			type := "ITALIC"
 		end
 
-
---testing with github
-
+	get_type: STRING
+		do
+			Result:= type
+		end
 end

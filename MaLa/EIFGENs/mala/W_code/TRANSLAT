@@ -1,0 +1,17 @@
+mala	DOCUMENT	doc_length	F958_7117	C1\do958.c
+mala	DOCUMENT	document_content	F958_7118	C1\do958.c
+mala	DOCUMENT	make	F958_7119	C1\do958.c
+mala	DOCUMENT	append	F958_7120	C1\do958.c
+mala	OBJECTPARENT	type	F959_7171	C1\ob959.c
+mala	OBJECTPARENT	get_type	F959_7172	C1\ob959.c
+mala	TEXT	ttype	F960_7173	C1\te960.c
+mala	TEXT	text_content	F960_7174	C1\te960.c
+mala	TEXT	id	F960_7175	C1\te960.c
+mala	TEXT	title	F960_7176	C1\te960.c
+mala	TEXT	make	F960_7177	C1\te960.c
+mala	TEXT	get_type	F960_7178	C1\te960.c
+mala	APPLICATION	text1	F961_7127	C1\ap961.c
+mala	APPLICATION	text2	F961_7128	C1\ap961.c
+mala	APPLICATION	text3	F961_7129	C1\ap961.c
+mala	APPLICATION	doc1	F961_7130	C1\ap961.c
+mala	APPLICATION	make	F961_7131	C1\ap961.c

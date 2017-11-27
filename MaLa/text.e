@@ -8,30 +8,32 @@ class
 
 inherit
 	OBJECTPARENT
-	redefine
-		type
-	end
 
 create
 	make
 
-feature --Attributes
+feature -- Attributes
 
-	type: STRING = "text"
-	text_content: STRING -- What will be written in the text/paragraph
-	id: INTEGER -- Will be the unique id of the object
-	title: STRING -- Will be the title of the object (for reconnaissance)
+	content: STRING -- What will be written in the text/paragraph
+	identifier: INTEGER -- Will be the unique id of the object
+	title: STRING -- Will be the title of the object (for recognition)
+	type: STRING -- The type of the object
 
+feature -- Routines
 
-feature --Routines
-
-	make(what:STRING; ttl: STRING)
+	make(what:STRING; ttl: STRING; id: INTEGER)
 		do
-			create text_content.make (what.count)
+			create content.make (what.count)
 			create title.make (ttl.count)
-			text_content := what
+			identifier := id
+			content := what
 			title := ttl
+			type := "TEXT"
 		end
 
 
+	get_type: STRING
+		do
+			Result:= type
+		end
 end

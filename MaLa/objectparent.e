@@ -7,7 +7,4 @@ note
 class
 	OBJECTPARENT
 
-feature
-	type: STRING
-	
 end

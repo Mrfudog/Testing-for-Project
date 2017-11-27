@@ -11,7 +11,7 @@ class
 create
 	make
 
-feature --Status
+feature -- Attributes
 
 	current_id: INTEGER
 
@@ -23,15 +23,17 @@ feature --Routines
 			current_id := 0
 		end
 
+	get_id: INTEGER
+		do
+			iterate_id
+			Result := current_id
+		end
+
+feature {NONE}
+
 	iterate_id
 		do
 			current_id := current_id + 1
-		end
-
-	get_id: INTEGER
-		do
-			current_id := current_id + 1
-			Result := current_id
 		end
 
 end

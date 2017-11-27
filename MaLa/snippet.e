@@ -5,22 +5,34 @@ note
 class
 	SNIPPET
 
+inherit
+	OBJECTPARENT
+
 create
 	make
 
 feature -- Attributes
 
-	id: INTEGER
-	snippet_content: STRING
-	ttl: STRING
-	type: STRING = "snippet"
+	content: STRING -- What will be written in the text/paragraph
+	identifier: INTEGER -- Will be the unique id of the object
+	title: STRING -- Will be the title of the object (for recognition)
+	type: STRING -- The type of the object
 
 feature -- Routines
 
-	make(content,title: STRING)
+	make(what: STRING; ttl: STRING; id: INTEGER)
 		do
-			snippet_content := content
+			create content.make (what.count)
+			create title.make (ttl.count)
+			identifier := id
+			content := content
 			ttl := title
+			type := "SNIPPET"
+		end
+
+	get_type: STRING
+		do
+			Result:= type
 		end
 
 end
